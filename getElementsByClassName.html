@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="section">First Section</div>
+ <div class="section">Second Section</div>
+ <div class="section">Third Section</div>
+
+ <script>
+
+    const sections= document.getElementsByClassName("section");
+     console.log(sections.length);
+    for(let i=0 ;i <sections.length; i++){
+        if(i==1){
+            sections[i].style="color:green";
+        }
+        else{
+       sections[i].style="color:red";
+    }
+}
+
+    
+ </script>
+    
+</body>
+</html>

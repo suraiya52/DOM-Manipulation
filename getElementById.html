@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="heading1"> I am learning DOM Manipulation</h1>
+    <button id="change-btn"> I am chance by Clicking </button>
+
+    <script>
+      const text= document.getElementById("heading1");
+      const myButton= document.getElementById("change-btn");
+
+    //   addEventListener
+       myButton.addEventListener("click" , function(){
+        text.innerHTML ="I leaned how to use getElementId"
+        text.innerHTML="Now i am alresdy learn how to use getElementById"
+       })
+
+    </script>
+    
+</body>
+</html>

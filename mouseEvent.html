@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+</head>
+<body>
+    <h1 id="heading">This text will be change by mouseover event </h1>
+
+    <script>
+        const text= document.getElementById("heading")
+
+    
+        text.addEventListener("mouseover" , function(){
+            text.style.color="red"
+        })
+        text.addEventListener("mouseout" , function(){
+            text.style.color="green"
+        })
+    </script>
+    
+</body>
+</html>
